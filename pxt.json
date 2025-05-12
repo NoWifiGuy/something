@@ -1,0 +1,39 @@
+{
+    "name": "Something",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "jacdac": "github:microsoft/pxt-jacdac#v1.9.28",
+        "fwd-edu-common": "github:climate-action-kits/pxt-fwd-edu/fwd-common",
+        "fwd-edu-breakout": "github:climate-action-kits/pxt-fwd-edu/fwd-breakout",
+        "fwd-edu-dial": "github:climate-action-kits/pxt-fwd-edu/fwd-dial",
+        "fwd-edu-led": "github:climate-action-kits/pxt-fwd-edu/fwd-led",
+        "fwd-edu-line": "github:climate-action-kits/pxt-fwd-edu/fwd-line",
+        "fwd-edu-moisture": "github:climate-action-kits/pxt-fwd-edu/fwd-moisture",
+        "fwd-edu-solar": "github:climate-action-kits/pxt-fwd-edu/fwd-solar",
+        "fwd-edu-sonar": "github:climate-action-kits/pxt-fwd-edu/fwd-sonar",
+        "fwd-edu-touch": "github:climate-action-kits/pxt-fwd-edu/fwd-touch",
+        "ledRing": "github:climate-action-kits/pxt-fwd-edu"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "pxt.json",
+        "_history",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "7.0.61",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "pyprj"
+}
